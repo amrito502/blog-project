@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#my_blog {
+  background-image: linear-gradient(
+    rgba(245, 245, 245, 0.767),
+    rgba(206, 206, 206, 0.829)
+  );
+}
+#main_blog {
+  box-shadow: 2px 5px 8px 4px #d9d9d9;
+  background: #f7f6f6;
+}
+/* topbar */
+
+.logo {
+  float: left;
+  padding: 15px;
+}
+
+.advartise {
+  float: right;
+  padding: 15px;
+}
+/* navbar start */
+
+dl,
+ol,
+ul,
+li {
+  margin-bottom: 0 !important;
+}
+
+#navbar {
+  background: #343841;
+}
+
+.nav {
+  float: left;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 14px;
+  font-weight: bolder;
+  transition: 0.4s;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav ul li:hover {
+  background: rosybrown;
+}
+
+.right_list {
+  display: inline-block;
+  float: right;
+}
+
+.right_list ul {
+  float: left;
+}
+
+.right_list ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  padding: 8px 14px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  border-right: 2px solid rgba(185, 180, 180, 0.884);
+}
+
+.right_list ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* main_content */
+
+.main_content {
+  width: 100%;
+  height: 100%;
+  /*background: rgb(179, 59, 59);*/
+}
+
+/*---------*/
+
+form {
+  padding: 17px;
+  background: #fff;
+  margin: 4px;
+}
+
+#sr {
+  padding: 2px 20px;
+  margin-right: -5px;
+}
+
+.bt_text {
+  padding: 4.2px 11px;
+  background: #4c3939;
+  color: #fff;
+  margin: 0px 0 0 0px;
+}
+
+table {
+  border: none !important;
+  color: #000;
+}
+
+.sd {
+  background: #f7f6f6;
+}
+td {
+  color: #000 !important;
+  border: none !important;
+}
+
+tr td a {
+  color: #000 !important;
+}
+
+.tag {
+  background: #ededed;
+}
+
+.video {
+  background: #f7f6f6;
+}
+
+.content-bars {
+  padding: 20px;
+}
+
+.content-bars h2 {
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.content-bars p {
+  padding-bottom: 10px;
+  text-align: justify;
+}
+.content-bars a {
+  margin-bottom: 5px;
+}
